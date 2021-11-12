@@ -1,0 +1,83 @@
+.orange-gradient{
+    background: rgb(255,193,58);
+    background: linear-gradient(
+90deg
+, rgba(246,154,15,1) 0%, rgba(255,166,23,1) 30%, rgba(252,212,88,1) 100%) !important;
+}
+.transparent-0
+{
+    background: rgba(0,0,0,0)  !important;
+}
+.orange-gradient-toolbar
+{
+    background: rgb(255,193,58);
+    background: linear-gradient(
+90deg
+, rgba(246,154,15,1) 0%, rgba(255,166,23,1) 30%, rgba(252,212,88,1) 100%) !important;
+background-image: url(../bg-plus.png);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: unset;
+}
+.bg-dark-gradient
+{
+    background: radial-gradient(farthest-side ellipse at 10% 0,#333867,#17193b)  !important;
+}
+.list-item-icon-color
+{
+    color: rgb(204 204 204 / 54%) !important;
+}
+.list-item-text-color
+{
+    color:rgba(244,244,245,.6);
+    font-weight: lighter !important;
+    font-size: 13px  !important;
+}
+.bg-red-gradient
+{
+    background: rgb(254,65,164);
+    background-image: linear-gradient(90deg, rgba(254,65,164,1) 0%, rgba(255,136,82,1) 100%) !important;
+}
+.bg-green-gradient{
+    color: #fff !important;
+    background: rgb(0,176,58);
+background: linear-gradient(90deg, rgba(0,176,58,1) 0%, rgba(129,255,82,1) 100%);
+}
+.table-full-width
+{
+    width: 98%;
+    background-color: #ffffff1c;
+    padding: 20px;
+}
+.bordered-table-row-bottom
+{
+    border-bottom:1px solid #eee
+}
+.bordered-table-row-left:last-child
+{
+    border-right: 1px solid #eee;
+}
+.bordered-table-row-left
+{
+    border-left:1px solid #eee
+}
+.has-bg .caption{
+    font-weight: bolder !important;
+    font-size: 17px !important;
+}
+.has-bg {
+    background-color: rgba(245,245,245,0.5);
+    border-radius: 8px;
+    color: #fff;
+    
+}
+.point
+{
+    width: 12px;
+    height:12px;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+}

@@ -1,0 +1,130 @@
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.login-container {
+    width: 1000px;
+    height: 560px;
+    background: white;
+    border-radius: 17px;
+    display: flex;
+    box-shadow: 0px 0px 26px #000000c7;
+}
+.login-left-side {
+    width: 420px;
+    height: 100%;
+    background: transparent;
+    border-radius: 17px;
+    position: relative;
+}
+.login-left-side .bg-image {
+    position: absolute;
+    left: -38px;
+    top: -15px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: calc(100% + 119px);
+}
+.left-side-info
+{
+    width: 70%;
+    min-height: 100px;
+    z-index: 11111111;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    padding: 9px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left-side-info-logo {
+    border-bottom: 3px solid #fff;
+    display: flex;
+    align-items: center;
+}
+.left-side-welcome-message {
+    color: #fff;
+    text-align: justify;
+    display: flex;
+    justify-content: start;
+    width: 85%;
+    padding-top: 8px;
+    flex-direction: column;
+}
+.login-right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    position: relative;
+    width: 580px;
+    box-sizing: border-box;
+}
+.login-right-side-title {
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    width: 74%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    color: #01196e;
+    font-weight: bold;
+    border-bottom: 3px solid #01196e;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-right-side-form-holder {
+    width: 74%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form-row {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.form-row-1 {
+    height: 22px;
+    font-weight: bold;
+    color: #2424c7;
+}
+.form-row-2 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.form-row-2 input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ecf3f6;
+    border: none;
+}
+.left-side-info span
+{
+    font-family: 'Britannic';
+    font-size: 46px;
+    color: #fff;
+}
+.left-side-info img
+{
+    width: 100px;
+    height: 100px;
+}
